@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E45219EB257FE4E400EF55A1 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45219EA257FE4E300EF55A1 /* Cardify.swift */; };
+		E4660E8A25768944008F32D3 /* PlayingCardMemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4660E8925768944008F32D3 /* PlayingCardMemorizeApp.swift */; };
+		E4660E8E25768947008F32D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4660E8D25768947008F32D3 /* Assets.xcassets */; };
+		E4660E9125768947008F32D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4660E9025768947008F32D3 /* Preview Assets.xcassets */; };
+		E4660E9C25768D02008F32D3 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4660E9925768D02008F32D3 /* PlayingCard.swift */; };
+		E4660E9D25768D02008F32D3 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4660E9A25768D02008F32D3 /* PlayingCardView.swift */; };
+		E4660E9E25768D02008F32D3 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4660E9B25768D02008F32D3 /* PlayingCardDeck.swift */; };
+		E47E01C0257940030002D7E7 /* PlayingCardPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01BF257940030002D7E7 /* PlayingCardPresent.swift */; };
+		E47E01D0257A41F50002D7E7 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01C9257A41F50002D7E7 /* EmojiMemoryGame.swift */; };
+		E47E01D1257A41F60002D7E7 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CA257A41F50002D7E7 /* Array+Only.swift */; };
+		E47E01D2257A41F60002D7E7 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CB257A41F50002D7E7 /* Array+Identifiable.swift */; };
+		E47E01D3257A41F60002D7E7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CC257A41F50002D7E7 /* Grid.swift */; };
+		E47E01D4257A41F60002D7E7 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CD257A41F50002D7E7 /* GridLayout.swift */; };
+		E47E01D5257A41F60002D7E7 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CE257A41F50002D7E7 /* MemoryGame.swift */; };
+		E47E01D6257A41F60002D7E7 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01CF257A41F50002D7E7 /* EmojiMemoryGameView.swift */; };
+		E47E01E5257BA21F0002D7E7 /* PlayingCardMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01E3257BA21F0002D7E7 /* PlayingCardMemoryGame.swift */; };
+		E47E01E6257BA21F0002D7E7 /* PlayingCardGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E01E4257BA21F0002D7E7 /* PlayingCardGameView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E45219EA257FE4E300EF55A1 /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		E4660E8625768944008F32D3 /* PlayingCardMemorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCardMemorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4660E8925768944008F32D3 /* PlayingCardMemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardMemorizeApp.swift; sourceTree = "<group>"; };
+		E4660E8D25768947008F32D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4660E9025768947008F32D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4660E9225768947008F32D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4660E9925768D02008F32D3 /* PlayingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		E4660E9A25768D02008F32D3 /* PlayingCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		E4660E9B25768D02008F32D3 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+		E47E01BF257940030002D7E7 /* PlayingCardPresent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardPresent.swift; sourceTree = "<group>"; };
+		E47E01C9257A41F50002D7E7 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		E47E01CA257A41F50002D7E7 /* Array+Only.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		E47E01CB257A41F50002D7E7 /* Array+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		E47E01CC257A41F50002D7E7 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		E47E01CD257A41F50002D7E7 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		E47E01CE257A41F50002D7E7 /* MemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		E47E01CF257A41F50002D7E7 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
+		E47E01E3257BA21F0002D7E7 /* PlayingCardMemoryGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardMemoryGame.swift; sourceTree = "<group>"; };
+		E47E01E4257BA21F0002D7E7 /* PlayingCardGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingCardGameView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4660E8325768944008F32D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4660E7D25768944008F32D3 = {
+			isa = PBXGroup;
+			children = (
+				E4660E8825768944008F32D3 /* PlayingCardMemorize */,
+				E4660E8725768944008F32D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4660E8725768944008F32D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4660E8625768944008F32D3 /* PlayingCardMemorize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4660E8825768944008F32D3 /* PlayingCardMemorize */ = {
+			isa = PBXGroup;
+			children = (
+				E4660E8925768944008F32D3 /* PlayingCardMemorizeApp.swift */,
+				E47E01CE257A41F50002D7E7 /* MemoryGame.swift */,
+				E47E01DF257A45670002D7E7 /* PlaingCardGame */,
+				E47E01DC257A439E0002D7E7 /* EmojiGame */,
+				E47E01DA257A43860002D7E7 /* Helper */,
+				E4660E8D25768947008F32D3 /* Assets.xcassets */,
+				E4660E9225768947008F32D3 /* Info.plist */,
+				E4660E8F25768947008F32D3 /* Preview Content */,
+			);
+			path = PlayingCardMemorize;
+			sourceTree = "<group>";
+		};
+		E4660E8F25768947008F32D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4660E9025768947008F32D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4660EA025768D0E008F32D3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4660E9925768D02008F32D3 /* PlayingCard.swift */,
+				E4660E9B25768D02008F32D3 /* PlayingCardDeck.swift */,
+				E4660E9A25768D02008F32D3 /* PlayingCardView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		E47E01DA257A43860002D7E7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E47E01CB257A41F50002D7E7 /* Array+Identifiable.swift */,
+				E47E01CA257A41F50002D7E7 /* Array+Only.swift */,
+				E47E01CC257A41F50002D7E7 /* Grid.swift */,
+				E47E01CD257A41F50002D7E7 /* GridLayout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E47E01DC257A439E0002D7E7 /* EmojiGame */ = {
+			isa = PBXGroup;
+			children = (
+				E47E01CF257A41F50002D7E7 /* EmojiMemoryGameView.swift */,
+				E47E01C9257A41F50002D7E7 /* EmojiMemoryGame.swift */,
+			);
+			path = EmojiGame;
+			sourceTree = "<group>";
+		};
+		E47E01DF257A45670002D7E7 /* PlaingCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				E47E01E4257BA21F0002D7E7 /* PlayingCardGameView.swift */,
+				E47E01E3257BA21F0002D7E7 /* PlayingCardMemoryGame.swift */,
+				E47E01BF257940030002D7E7 /* PlayingCardPresent.swift */,
+				E45219EA257FE4E300EF55A1 /* Cardify.swift */,
+				E4660EA025768D0E008F32D3 /* UIKit */,
+			);
+			path = PlaingCardGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4660E8525768944008F32D3 /* PlayingCardMemorize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4660E9525768947008F32D3 /* Build configuration list for PBXNativeTarget "PlayingCardMemorize" */;
+			buildPhases = (
+				E4660E8225768944008F32D3 /* Sources */,
+				E4660E8325768944008F32D3 /* Frameworks */,
+				E4660E8425768944008F32D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingCardMemorize;
+			productName = PlayingCardMemorize;
+			productReference = E4660E8625768944008F32D3 /* PlayingCardMemorize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4660E7E25768944008F32D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					E4660E8525768944008F32D3 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = E4660E8125768944008F32D3 /* Build configuration list for PBXProject "PlayingCardMemorize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4660E7D25768944008F32D3;
+			productRefGroup = E4660E8725768944008F32D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4660E8525768944008F32D3 /* PlayingCardMemorize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4660E8425768944008F32D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4660E9125768947008F32D3 /* Preview Assets.xcassets in Resources */,
+				E4660E8E25768947008F32D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4660E8225768944008F32D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4660E9D25768D02008F32D3 /* PlayingCardView.swift in Sources */,
+				E47E01E6257BA21F0002D7E7 /* PlayingCardGameView.swift in Sources */,
+				E47E01C0257940030002D7E7 /* PlayingCardPresent.swift in Sources */,
+				E45219EB257FE4E400EF55A1 /* Cardify.swift in Sources */,
+				E47E01D3257A41F60002D7E7 /* Grid.swift in Sources */,
+				E4660E9E25768D02008F32D3 /* PlayingCardDeck.swift in Sources */,
+				E4660E9C25768D02008F32D3 /* PlayingCard.swift in Sources */,
+				E47E01D5257A41F60002D7E7 /* MemoryGame.swift in Sources */,
+				E47E01D2257A41F60002D7E7 /* Array+Identifiable.swift in Sources */,
+				E4660E8A25768944008F32D3 /* PlayingCardMemorizeApp.swift in Sources */,
+				E47E01E5257BA21F0002D7E7 /* PlayingCardMemoryGame.swift in Sources */,
+				E47E01D0257A41F50002D7E7 /* EmojiMemoryGame.swift in Sources */,
+				E47E01D1257A41F60002D7E7 /* Array+Only.swift in Sources */,
+				E47E01D4257A41F60002D7E7 /* GridLayout.swift in Sources */,
+				E47E01D6257A41F60002D7E7 /* EmojiMemoryGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E4660E9325768947008F32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4660E9425768947008F32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4660E9625768947008F32D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayingCardMemorize/Preview Content\"";
+				DEVELOPMENT_TEAM = QLY879YR3Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayingCardMemorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestkora.cs193p.PlayingCardMemorize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4660E9725768947008F32D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayingCardMemorize/Preview Content\"";
+				DEVELOPMENT_TEAM = QLY879YR3Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayingCardMemorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bestkora.cs193p.PlayingCardMemorize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4660E8125768944008F32D3 /* Build configuration list for PBXProject "PlayingCardMemorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4660E9325768947008F32D3 /* Debug */,
+				E4660E9425768947008F32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4660E9525768947008F32D3 /* Build configuration list for PBXNativeTarget "PlayingCardMemorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4660E9625768947008F32D3 /* Debug */,
+				E4660E9725768947008F32D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4660E7E25768944008F32D3 /* Project object */;
+}
