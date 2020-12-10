@@ -5,4 +5,4 @@ For this app Xcode 12 GM and MacOS Catalina or higher are required.
  
 ![PlayingCard Memorize](NewGame.gif)
 
-following Stanford course CS193P Spring 2020
+[following Stanford course CS193P Spring 2020] (https://cs193p.sites.stanford.edu/)
