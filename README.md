@@ -1,6 +1,6 @@
 # Playing Card Memorize with SwiftUI
 
-For this app Xcode 12 GM and MacOS Catalina or higher are required.
+For this app Xcode 12 and MacOS Catalina or higher are required.
 
 - Reactive MVVM + MVI
 - Generic Model & Polimorphism
