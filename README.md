@@ -12,6 +12,6 @@ For this app Xcode 12 and MacOS Catalina or higher are required.
  
 ![PlayingCard Memorize](NewGame3.gif)
 
-[following Stanford course CS193P Spring 2020] (https://cs193p.sites.stanford.edu/)
+[following Stanford course CS193P Spring 2020](https://cs193p.sites.stanford.edu/)
 
-[Русскоязычный неавторизованный перевод CS193P Spring 2020] (https://bestkora.com/IosDeveloper/)
+[Русскоязычный неавторизованный перевод CS193P Spring 2020](https://bestkora.com/IosDeveloper/)
